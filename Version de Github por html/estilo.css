@@ -1,11 +1,20 @@
-.btn-descarga {
-    display: inline-block;
-    margin-top: 5px;
-    padding: 6px 12px;
-    background-color: #007acc;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
-.btn-descarga:hover {
-    background-color: #005fa3;
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+td a {
+  text-decoration: none;
+  color: #0066cc;
+}
